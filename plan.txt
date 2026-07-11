@@ -33,7 +33,7 @@ categories, suppliers, products, customers, users, sales, sale_items, purchases,
 sqlCREATE DATABASE shop_management;
 USE shop_management;
 
--- Users (staff/admin who operate the system)
+-- Users (staff/admin who operate the system) 
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
